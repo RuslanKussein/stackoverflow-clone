@@ -11,24 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ae5be3b-35a5-4216-8380-0fd6397a57df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/DialogWrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/FacebookButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/FormWrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/GithubButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/GoogleButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/Input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/ModalButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/SignInDialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/SignUpDialog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/normalize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme/theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
         <option value="JavaScript File" />
-        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -57,17 +51,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.karma.karma_node_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/containers/dialog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\projects\stackoverflow-clone\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\projects\stackoverflow-clone\src\containers\dialog" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\projects\stackoverflow-clone\src\containers\dialog" />
       <recent name="D:\projects\stackoverflow-clone\public\svgs" />
     </key>
   </component>
@@ -100,10 +90,6 @@
       <workItem from="1612153489550" duration="48000" />
       <workItem from="1612370482665" duration="983000" />
       <workItem from="1612710075867" duration="8894000" />
-      <workItem from="1613203077054" duration="12000" />
-      <workItem from="1613292723227" duration="2151000" />
-      <workItem from="1613388316926" duration="2690000" />
-      <workItem from="1613391021475" duration="9270000" />
     </task>
     <servers />
   </component>
@@ -122,39 +108,35 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="UI: create UI of sign up and sign in" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI: create UI of sign up and sign in" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="40" width="1089" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613389062691">
+    <state x="0" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612031711395">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="0" y="40" width="1089" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1280.680@0.40.1280.680" timestamp="1613389062691" />
-    <state x="371" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613389896619">
+    <state x="0" y="30" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1280.680@0.40.1280.680" timestamp="1612031711395" />
+    <state x="371" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612710859444">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="371" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1280.680@0.40.1280.680" timestamp="1613389896619" />
-    <state x="421" y="135" key="FileChooserDialogImpl" timestamp="1613391018910">
+    <state x="371" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1280.680@0.40.1280.680" timestamp="1612710859444" />
+    <state x="421" y="135" key="FileChooserDialogImpl" timestamp="1612434006911">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="421" y="135" key="FileChooserDialogImpl/0.40.1280.680@0.40.1280.680" timestamp="1613391018910" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1613405695323">
+    <state x="421" y="135" key="FileChooserDialogImpl/0.40.1280.680@0.40.1280.680" timestamp="1612434006911" />
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1612717203902">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.40.1280.680@0.40.1280.680" timestamp="1613405695323" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1613405695323">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.40.1280.680@0.40.1280.680" timestamp="1612717203902" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1612717203902">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.40.1280.680@0.40.1280.680" timestamp="1613405695323" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1613405695323">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.40.1280.680@0.40.1280.680" timestamp="1612717203902" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1612717203902">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.40.1280.680@0.40.1280.680" timestamp="1613405695323" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1613405695323">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.40.1280.680@0.40.1280.680" timestamp="1612717203902" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1612717203902">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.40.1280.680@0.40.1280.680" timestamp="1613405695323" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.40.1280.680@0.40.1280.680" timestamp="1612717203902" />
     <state x="400" y="282" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1612714337079">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
