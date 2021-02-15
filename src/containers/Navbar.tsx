@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useCallback, useState} from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -10,6 +10,8 @@ import makeStyles from "@material-ui/core/styles/makeStyles";
 import TextField from '@material-ui/core/TextField';
 import InputAdornment from '@material-ui/core/InputAdornment/InputAdornment';
 import SearchIcon from '@material-ui/icons/Search';
+import SignUpDialog from './dialog/SignUpDialog';
+import SignInDialog from './dialog/SignInDialog';
 
 const useStyles = makeStyles({
     gridItem: {
@@ -24,7 +26,6 @@ const useStyles = makeStyles({
         background: "#fff",
         height: "70px"
     },
-
     logInButton: {
         backgroundColor: "#e1ecf4",
         color: "#39739d",
@@ -52,6 +53,35 @@ const useStyles = makeStyles({
 
 const Navbar = () => {
     const classes = useStyles();
+
+    const [isSignUpOpen, setIsSignUpOpen] = useState<boolean>(false);
+    const handleOpenSignUp = useCallback(
+        () => {
+            setIsSignUpOpen(true);
+        },
+        [setIsSignUpOpen]
+    );
+    const handleCloseSignUp = useCallback(
+        () => {
+            setIsSignUpOpen(false);
+        },
+        [setIsSignUpOpen]
+    );
+
+    const [isSignInOpen, setIsSignInOpen] = useState<boolean>(false);
+
+    const handleOpenSignIn = useCallback(
+        () => {
+            setIsSignInOpen(true);
+        },
+        [setIsSignInOpen]
+    );
+    const handleCloseSignIn = useCallback(
+        () => {
+            setIsSignInOpen(false);
+        },
+        [setIsSignInOpen]
+    );
 
     return (
         <AppBar position="fixed" className={classes.appBar}>
@@ -94,15 +124,19 @@ const Navbar = () => {
                         <Button
                             variant="outlined"
                             className={classes.logInButton}
+                            onClick={handleOpenSignIn}
                         >
                             Login in
                         </Button>
                         <Button
                             variant="outlined"
                             className={classes.signUpButton}
+                            onClick={handleOpenSignUp}
                         >
                             Sign up
                         </Button>
+                        <SignUpDialog open={isSignUpOpen} onClose={handleCloseSignUp}/>
+                        <SignInDialog open={isSignInOpen} onClose={handleCloseSignIn}/>
                     </Grid>
                     <Grid xs={1}/>
                 </Grid>
