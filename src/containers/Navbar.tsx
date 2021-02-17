@@ -2,7 +2,7 @@ import React, {useCallback, useState} from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
+import Button from "../containers/Button";
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Grid from '@material-ui/core/Grid';
@@ -24,24 +24,7 @@ const useStyles = makeStyles({
     },
     appBar: {
         background: "#fff",
-        height: "70px"
-    },
-    logInButton: {
-        backgroundColor: "#e1ecf4",
-        color: "#39739d",
-        borderColor: "#7aa7c7",
-        "&:hover": {
-            background: "#b3d3ea"
-        }
-    },
-    signUpButton: {
-        marginLeft: "0.3rem",
-        backgroundColor: "#0095ff",
-        color: "#fff",
-        borderColor: "transparent",
-        "&:hover": {
-            background: "#0077cc"
-        }
+        height: "60px"
     },
     textField: {
         width: "100%",
@@ -122,15 +105,13 @@ const Navbar = () => {
                     <Grid xs={1}/>
                     <Grid xs={2} className={classes.gridItem} justify="flex-end">
                         <Button
-                            variant="outlined"
-                            className={classes.logInButton}
+                            color="secondary"
                             onClick={handleOpenSignIn}
                         >
                             Login in
                         </Button>
                         <Button
-                            variant="outlined"
-                            className={classes.signUpButton}
+                            color={"primary"}
                             onClick={handleOpenSignUp}
                         >
                             Sign up

@@ -5,10 +5,12 @@ import {MuiThemeProvider} from "@material-ui/core";
 import {theme} from "./theme/theme";
 import "./styles/normalize.scss"
 import Navbar from "./containers/Navbar";
+import QuestionsPage from "./landing/QuestionsPage";
 
 ReactDOM.render(
     <MuiThemeProvider theme={theme}>
         <Navbar />
+        <QuestionsPage />
     </MuiThemeProvider>,
   document.getElementById('root')
 );

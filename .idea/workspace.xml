@@ -37,25 +37,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec0faa9e-9b5e-4cae-a4fa-01067c935a05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/DialogWrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/FacebookButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/FormWrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/GithubButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/GoogleButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/Input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/ModalButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/SignInDialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/dialog/SignUpDialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/girl-avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/question/AdditionalInformation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/question/Question.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/question/QuestionHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/question/body/Actions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/question/body/CardUser.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/question/body/QuestionBody.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landing/QuestionsPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/svgs/stack-overflow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/stack-overflow.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
@@ -68,13 +62,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nnfVh0Y6RR7syagDgh4lzvUH7d" />
@@ -87,19 +86,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.karma.karma_node_package_dir" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/containers/dialog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\projects\stackoverflow-clone\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\projects\stackoverflow-clone\public" />
-      <recent name="D:\projects\stackoverflow-clone\src\containers\dialog" />
-      <recent name="D:\projects\stackoverflow-clone\public\svgs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\projects\stackoverflow-clone\src\containers\dialog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\stackoverflow-clone\public" />
+      <recent name="D:\projects\stackoverflow-clone\src\containers\question" />
+      <recent name="D:\projects\stackoverflow-clone\src\containers\question\body" />
+      <recent name="D:\projects\stackoverflow-clone\src\containers\dialog" />
+      <recent name="D:\projects\stackoverflow-clone\public\svgs" />
     </key>
   </component>
   <component name="RunManager">
@@ -121,7 +125,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5ae5be3b-35a5-4216-8380-0fd6397a57df" name="Default Changelist" comment="" />
+      <changelist id="ec0faa9e-9b5e-4cae-a4fa-01067c935a05" name="Default Changelist" comment="" />
       <created>1612030800694</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -135,6 +139,8 @@
       <workItem from="1613292723227" duration="2151000" />
       <workItem from="1613388316926" duration="2690000" />
       <workItem from="1613391021475" duration="9270000" />
+      <workItem from="1613554269286" duration="1054000" />
+      <workItem from="1613564054743" duration="4884000" />
     </task>
     <servers />
   </component>
@@ -174,41 +180,53 @@
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="0" y="40" width="1089" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.40.1280.680@0.40.1280.680" timestamp="1613389062691" />
-    <state x="371" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613389896619">
+    <state x="371" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613564575366">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="371" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1280.680@0.40.1280.680" timestamp="1613389896619" />
+    <state x="371" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1280.680@0.40.1280.680" timestamp="1613564575366" />
     <state x="93" y="133" width="1095" height="495" key="DiffContextDialog" timestamp="1613544692454">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="93" y="133" width="1095" height="495" key="DiffContextDialog/0.40.1280.680@0.40.1280.680" timestamp="1613544692454" />
-    <state x="421" y="135" key="FileChooserDialogImpl" timestamp="1613544959788">
+    <state x="421" y="135" key="FileChooserDialogImpl" timestamp="1613553330586">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="421" y="135" key="FileChooserDialogImpl/0.40.1280.680@0.40.1280.680" timestamp="1613544959788" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1613545206737">
+    <state x="421" y="135" key="FileChooserDialogImpl/0.40.1280.680@0.40.1280.680" timestamp="1613553330586" />
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1613564107861">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.40.1280.680@0.40.1280.680" timestamp="1613545206737" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1613545206737">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.40.1280.680@0.40.1280.680" timestamp="1613564107861" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1613564107861">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.40.1280.680@0.40.1280.680" timestamp="1613545206737" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1613545206737">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.40.1280.680@0.40.1280.680" timestamp="1613564107861" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1613564107860">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.40.1280.680@0.40.1280.680" timestamp="1613545206737" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1613545206737">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.40.1280.680@0.40.1280.680" timestamp="1613564107860" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1613564107861">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.40.1280.680@0.40.1280.680" timestamp="1613545206737" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.40.1280.680@0.40.1280.680" timestamp="1613564107861" />
+    <state x="233" y="113" key="Vcs.Push.Dialog.v2" timestamp="1613545381170">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="233" y="113" key="Vcs.Push.Dialog.v2/0.40.1280.680@0.40.1280.680" timestamp="1613545381170" />
     <state x="400" y="282" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1612714337079">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
     <state x="400" y="282" key="git4idea.remote.GitConfigureRemotesDialog/0.40.1280.680@0.40.1280.680" timestamp="1612714337079" />
-    <state x="363" y="292" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1613544972488">
+    <state x="297" y="171" key="run.anything.popup" timestamp="1613552484253">
       <screen x="0" y="40" width="1280" height="680" />
     </state>
-    <state x="363" y="292" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.40.1280.680@0.40.1280.680" timestamp="1613544972488" />
+    <state x="297" y="171" key="run.anything.popup/0.40.1280.680@0.40.1280.680" timestamp="1613552484253" />
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1613554386570">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="303" y="41" width="672" height="678" key="search.everywhere.popup/0.40.1280.680@0.40.1280.680" timestamp="1613554386570" />
+    <state x="363" y="292" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1613569443707">
+      <screen x="0" y="40" width="1280" height="680" />
+    </state>
+    <state x="363" y="292" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.40.1280.680@0.40.1280.680" timestamp="1613569443707" />
   </component>
 </project>
