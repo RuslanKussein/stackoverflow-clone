@@ -6,6 +6,12 @@
       "dom.iterable",
       "esnext"
     ],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
